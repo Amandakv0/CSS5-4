@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headerDiv{
+    display: flex;
+    justify-content: center;
+    background-color: #F1EBFF;
+    padding: 20px 0px;
+    gap: 16px;
+}
+.purpleText{
+    color: #40D;
+    font-size: 16px;
+    font-weight: 700;
+}
+.greyText{
+    color: #5E6577;
+    font-size: 16px;
+}
+
+.mainContentDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.littleFraimsDiv{
+    display: flex;
+    gap: 136px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.littlePurpleFraim{
+    display: flex;
+    border-radius: 16px;
+    background: #F1EBFF;
+    padding: 8px 24px;
+    gap: 12px;
+    align-items: center;
+}
+.searchBarFrame{
+    border-radius: 16px;
+    background: #40D;
+    padding: 16px;
+}
+.blackText{
+    font-size: 16px;
+    color: #323232;
+}
+.logo{
+    width: 24px;
+    height: 24px;
+}
+.houseContainerDiv{
+    gap: 48px;
+    align-items: center;
+    margin-bottom: 64px;
+}
+.houseParag{
+    color: #5E6577;
+    font-size: 28px;
+    text-align: right;
+}
+
+.totalPriceDiv{
+    gap: 24px;
+    padding-bottom: 24px;
+    margin-bottom: 65px;
+    border-bottom: 1px solid #CCD3E0;
+}
+
+.greenBox, .totalPriceDiv, .houseContainerDiv,
+.purpleBox, .lastBox{
+    width: 100%;
+    max-width: 1040px;
+    display: flex;
+}
+
+.greenBox{
+    border-top: 2px solid #8CE900;
+    border-left: 2px solid black;
+    border-right: 2px solid #133EEF;
+    border-bottom: 2px solid #DD2590;
+    gap: 150px;
+    padding: 17px 25px 88px 25px;
+    margin-bottom: 65px;
+}
+.lightGreyText{
+    width: 470px;
+    color: #969696;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+.purpleBox{
+    border-radius: 8px;
+    border: 1px solid #40D;
+    background: #EDE6FC;
+    padding: 66px 24px;
+    gap: 16px;
+    margin-bottom: 65px;
+    align-items: center;
+}
+.parag{
+    text-align: justify;
+    width: 470px;
+    color: #3B3B3B;
+    font-size: 14px;
+    line-height: 20px;
+}
+.lastBox{
+    padding: 116px 24px 24px 24px;
+    gap: 126px;
+    margin-bottom: 180px;
+    border-radius: 8px;
+    border: 2px solid #004FE3;
+    align-items: flex-end;
+}
+.blackBigText{
+    color: #000;
+    font-size: 28px;
+    font-weight: bold;
+}
+.blueText{
+    width: 470px;
+    color: #155EEF;
+    font-size: 14px;
+}
+a{
+    text-decoration-line: none;
+}
+.footerDiv{
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    gap: 24px;
+    padding: 40px 320px 10px 0px;
+    border-top: 1px solid #F1EBFF;
+}
